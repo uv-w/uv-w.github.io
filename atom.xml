@@ -4,9 +4,9 @@
   <subtitle>UV-W&#39;s BLOG</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://localhost:4000/"/>
-  <updated>2016-10-28T09:09:12.000Z</updated>
-  <id>http://localhost:4000/</id>
+  <link href="https://uv-w.github.io/"/>
+  <updated>2016-11-28T09:09:12.000Z</updated>
+  <id>https://uv-w.github.io/</id>
   
   <author>
     <name>Lcq</name>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>新的开始</title>
-    <link href="http://localhost:4000/2016/11/27/new-start/"/>
-    <id>http://localhost:4000/2016/11/27/new-start/</id>
+    <link href="https://uv-w.github.io/2016/11/27/new-start/"/>
+    <id>https://uv-w.github.io/2016/11/27/new-start/</id>
     <published>2016-11-27T09:09:11.000Z</published>
-    <updated>2016-10-28T09:09:12.000Z</updated>
+    <updated>2016-11-28T09:09:12.000Z</updated>
     
     <content type="html"><![CDATA[<p>个人域名以及云主机都早已搞定，无奈没有东西填充，真是浪费啊。<br>痛定思痛，每每想把网站搞起来，无奈拖沓性格，导致迟迟没能有所作为。<br>近期终于下定决心，走出这一步。特别是看到Hexo后，这种期待就更强了。<br><a id="more"></a></p>
 <p>Hexo是一种基于Node.js的静态博客框架，想必很多人应该已经了解。官方描述其特点为”快速、简洁且高效”。</p>
@@ -40,12 +40,12 @@
     
     </summary>
     
-      <category term="生活" scheme="http://localhost:4000/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://uv-w.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="杂感" scheme="http://localhost:4000/categories/%E7%94%9F%E6%B4%BB/%E6%9D%82%E6%84%9F/"/>
+      <category term="杂感" scheme="https://uv-w.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%9D%82%E6%84%9F/"/>
     
     
-      <category term="杂感" scheme="http://localhost:4000/tags/%E6%9D%82%E6%84%9F/"/>
+      <category term="杂感" scheme="https://uv-w.github.io/tags/%E6%9D%82%E6%84%9F/"/>
     
   </entry>
   
