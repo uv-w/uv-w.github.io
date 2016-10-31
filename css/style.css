@@ -499,6 +499,8 @@ article .archive-tag a {
   float: right;
   margin-right: 5px;
   writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   background: #c5c5c5;
   color: #fff !important;
   position: relative;
