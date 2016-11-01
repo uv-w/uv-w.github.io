@@ -550,10 +550,10 @@ article .archive-tag a:after {
   content: '原';
 }
 .article-type .recommend {
-  color: #e89093;
+  color: #e8666e;
 }
 .article-type .recommend:after {
-  content: '荐';
+  content: '置顶';
 }
 .article-type .others:after,
 .article-type .my:after,
@@ -593,7 +593,7 @@ header:hover {
   color: #069;
 }
 .card-content .entry {
-  font-size: 0.9rem;
+  font-size: 1em;
   line-height: 1.7;
 }
 @media (max-width: 480px) {
