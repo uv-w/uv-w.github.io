@@ -9,13 +9,14 @@
       <content type="html"><![CDATA[<p>这个博客虽然还有不少兼容问题，但是整体也还算完整。但是总感觉不满意，感觉怪怪的，也许是不懂设计，UI不知道如何才能达到自己的审美。</p>
 <p>另外板块受限于hexo的限制，感觉不好发挥自己的想法，所以，我想，自己写一个博客吧。</p>
 <a id="more"></a>
-<p>另外我经常看<a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="external">阮一峰</a>的博客，里面有一篇文章叫做<a href="http://www.ruanyifeng.com/blog/2016/01/website-obesity-crisis.html" target="_blank" rel="external">《网站的肥胖症危机》</a>，描述了现代的网站，<br>文字内容虽然不多，但是网站本身体积却很大，添加了很多花花哨哨的功能，以及各种第三方的功能和库文件，不符合简洁简单的观点，增加了复杂性。<br>而我个人也一直希望自己能够简单，周围事物能够简单，这个时代太多事物让人分神，让人疲惫。</p>
+<p>另外我经常看<a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="external">阮一峰</a>的博客，里面有一篇文章叫做<a href="http://www.ruanyifeng.com/blog/2016/01/website-obesity-crisis.html" target="_blank" rel="external">《网站的肥胖症危机》</a>，描述了现代的网站，<br>文字内容虽然不多，但是网站本身体积却很大，添加了很多花花哨哨的功能，以及各种第三方的功能和库文件，不符合简洁简单的观点，增加了复杂性。</p>
+<p>而我个人也一直希望自己能够简单，周围事物能够简单，这个时代太多事物让人分神，让人疲惫。</p>
 <p>我这次准备做一套个人的网站，首先界面要简洁，突出主题，网站体积要尽可能的小，加载速度要快，做成最终我要的样子。</p>
 <p>网站应该包括博客，工具导航类、在线学习系统等。</p>
 <p>博客做一些生活和个人记录。利用markdown书写，能够简单发布和备份，支持留言点赞分享置顶等常用功能，以及我还存在的其他想法。</p>
 <p>工具导航类主要是包涵一个可自由编辑的，包涵自己常用的一些开发工具，支持多任务，支持数据备份和后台存储等。</p>
 <p>在线学习系统主要面向前端这块，可以在线调试各种效果，支持导出和分享等。交互效果要简单实用。</p>
-<p>目前主要开发环境，包括express\ejs\bootstrap\webpack\vue.js等最新版本。后台存储暂时使用<a href="https://leancloud.cn/" target="_blank" rel="external">leancloud</a>,<br>统计留言等功能可能会使用不蒜子或多说，很可能是自己实现。cdn还是会用<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云</a>,版本托管使用<a href="https://coding.net" target="_blank" rel="external">码市</a>。</p>
+<p>目前主要开发环境，包括express\ejs\bootstrap\webpack\vue.js等最新版本。后台存储暂时使用<a href="https://leancloud.cn/" target="_blank" rel="external">leancloud</a>,统计留言等功能可能会使用不蒜子或多说，很可能是自己实现。cdn还是会用<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云</a>，版本托管使用<a href="https://coding.net" target="_blank" rel="external">码市</a>。</p>
 <p>不折腾不罢休！争取年前搞定！</p>
 ]]></content>
     </entry>
