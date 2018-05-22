@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  
+      <title>Hello World - 平凡之路</title>
+  
+
+  
+  
+  <meta name="description" content="再次回来了">
+  <meta name="author" content="uv-w">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- load loadjs.js -->
+  <script src="/libs/loadjs/dist/loadjs.min.js"></script>
+
+
+<link rel="stylesheet" href="/libs/animate.css/animate.min.css">
+  <!-- load lightgallery -->
+<link rel="stylesheet" href="/css/lightgallery.css">
+<link rel="stylesheet" href="/libs/noty/lib/noty.css">
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+    <link rel="stylesheet" href="/css/taurus.css">
+    
+        <link rel="stylesheet" href="/css/scheme-taurus/animations.css">
+    
+
+
+ 
+
+  <!-- load font awesome 5 -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <!-- load mathjax -->
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax//libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <!-- load js-cookie -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/social-share.min.js"></script>
+    <script src="/js/theme.js"></script>
+
+  <!-- include cookie.js -->
+  
+  
+
+  <!-- include comment system code -->
+  
+    <script src="//cdn1.lncld.net/static/js/3.6.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+ 
+
+<header id="header" class='header'>
+	<div class="header-title">
+		
+		<div class='header-logo'>
+			<a href='/'>
+				<img src='/images/theme-icon.svg' />
+			</a>
+		</div>
+		<div class='header-text'>
+			<h1>
+				<a href="/">平凡之路</a>
+			</h1>
+			<subtitle>
+				Go with wind
+			</subtitle>
+		</div>
+		
+	</div>
+	<div id='header-nav'>
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+		
+		
+			<div class='nav-item'>
+				
+					<div class="nav-name">
+				
+					<a class='nav-link' href="/resume/">
+						<span>Resume </span>
+					</a>
+				</div>
+			</div>
+		
+	
+		
+			
+		
+		
+			<div class='nav-item'>
+				
+					<div class="nav-name">
+				
+					<a class='nav-link' href="/aaa/">
+						<span>Menu item </span>
+					</a>
+				</div>
+			</div>
+		
+	
+	
+	<div class='nav-item' id='nav-item-toc'>
+		
+
+
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#quick-start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a></li></ol>
+<div class="toc-button" onclick='toggleTOC(event);' ontouchstart='toggleTOC(event);'>
+    <img src="/images/icons/blue-shadow/toc.svg" alt="">
+</div>
+
+	</div>
+	
+	<div class='nav-item' id='nav-item-archive'>
+		
+				<div class='nav-icon'>
+				
+			<a href="/archives/" title='归档'>
+			<img src="/images/icons/blue-shadow/archive.svg" alt="">
+			</a>
+		</div>
+	</div>
+	<div class='nav-item' id='nav-item-search'>
+		
+		<div class='nav-icon'>
+		
+			<a href="/search/" title='搜索'>
+			<img src="/images/icons/blue-shadow/search.svg" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id='nav-item-more'>
+		<div class="nav-icon">
+				<a href='#' onclick='onClickMenuIcon(event);' ontouchstart='onClickMenuIcon(event);'>
+				<img src="/images/icons/blue-shadow/menu.svg" alt="">
+				</a>
+		</div>
+		<div class="nav-more-menu">
+		
+			
+			
+				
+			
+		
+			<div class='nav-more-item'>
+					<div class="nav-name">
+						<a class='nav-link' href="/resume/">
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+				
+			
+		
+			<div class='nav-more-item'>
+					<div class="nav-name">
+						<a class='nav-link' href="/aaa/">
+							<span>Menu item</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+		<div class='nav-more-item'>
+				<div class="nav-name">
+					<a class='nav-link' href="/categories/notes/">
+						<span>Notes</span>
+					</a>
+				</div>
+		</div>
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+</header>
+
+ 
+
+  
+
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div style="flex: 1;">
+      
+  </div>
+
+  
+
+<footer id='footer'>
+    <div class='footer-copyright'>
+        <div>
+            <p> 版权所有 <a href="">uv-w </a> @ 2018</p>
+            <p>设计: <i class="fas fa-paint-brush"></i> <a href="https://moober.cn">Moober</a> 和 <i class="fas fa-graduation-cap"></i> <a href="https://qutang.github.io">Qu Tang</a> &bull; 主题: <a href="https://qutang.github.io/cutie/">Cutie 2.0.12-Taurus</a> &bull; 由 <a href="http://hexo.io">Hexo.</a> 强力驱动</p>
+        </div>
+    </div>
+    
+    <div class='footer-social'>
+        
+            
+                
+                    <div class='footer-social-item'><a href='https://github.com/uv-w' target='_blank' ><i class="fab fa-github fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class='footer-social-item'><a href='https://www.linkedin.com/in/qutang' target='_blank' ><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+        
+    </div>
+</footer>
+
+  <br>
+
+  <div id="footer-nav" class='footer-nav'>
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+				
+			
+		
+		
+	
+		
+			
+		
+		
+	
+	
+	<div class='nav-item' id='nav-item-toc'>
+		
+
+
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#quick-start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a></li></ol>
+<div class="toc-button" onclick='toggleTOC(event);' ontouchstart='toggleTOC(event);'>
+    <img src="/images/icons/blue-shadow/toc.svg" alt="">
+</div>
+
+	</div>
+	
+	<div class='nav-item' id='nav-item-archive'>
+		
+				<div class='nav-icon'>
+				
+			<a href="/archives/" title='归档'>
+			<img src="/images/icons/blue-shadow/archive.svg" alt="">
+			</a>
+		</div>
+	</div>
+	<div class='nav-item' id='nav-item-search'>
+		
+		<div class='nav-icon'>
+		
+			<a href="/search/" title='搜索'>
+			<img src="/images/icons/blue-shadow/search.svg" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id='nav-item-more'>
+		<div class="nav-icon">
+				<a href='#' onclick='onClickMenuIcon(event);' ontouchstart='onClickMenuIcon(event);'>
+				<img src="/images/icons/blue-shadow/menu.svg" alt="">
+				</a>
+		</div>
+		<div class="nav-more-menu">
+		
+			
+			
+				
+			
+		
+			<div class='nav-more-item'>
+					<div class="nav-name">
+						<a class='nav-link' href="/resume/">
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+				
+			
+		
+			<div class='nav-more-item'>
+					<div class="nav-name">
+						<a class='nav-link' href="/aaa/">
+							<span>Menu item</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+		<div class='nav-more-item'>
+				<div class="nav-name">
+					<a class='nav-link' href="/categories/notes/">
+						<span>Notes</span>
+					</a>
+				</div>
+		</div>
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+
+  
+
+
+
+    
+    
+    
+    
+<script>
+    new Valine({
+        el: '#valine',
+        notify:false, 
+        verify:false,
+        appId: 'CNovJyfiCkilw3Aouqw97vPI-gzGzoHsz',
+        appKey: 'Kb596VfwcjVPAivAF6eHxceb',
+        placeholder: 'please say',
+        path:window.location.pathname, 
+        avatar:'retro',
+        lang: 'zh-cn'
+    });
+</script>
+
+
+
+
+
+
+
+
+    <script src="/js/lightgallery.min.js"></script>
+<script src="/js/lg-zoom.min.js"></script>
+<script type='text/javascript'>
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+        $(".article-content img").each(function(){
+            console.log($(this).attr('src'))
+            $(this).attr('data-src', $(this).attr('src')).lightGallery({
+                selector: 'this'
+            })
+        });
+    });
+</script>
+
+
+
+
+
+
+<script type='text/javascript'>
+
+  
+  // update cookie if this page is opened (directly)
+  loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/post.v2.js'], 'post-version');
+  loadjs.ready('post-version', function(){
+    
+    new Postv2('hashit_e7d2f1136b94a21d95ef2c1bddac8320c1d0381ca7fc56ad67dbb55630321dbd').update('hashit_6efe040c108562253b2741585e2c4ce8633fbd686bf8bc66134bd212cf028021', function(){});
+  });
+  
+</script>
+
+
+    <script type="text/javascript" src="https://l2.io/ip.js?var=user_ip"></script>
+<script type='text/javascript'>
+  
+  // update cookie if this page is opened (directly)
+  loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/leancloud.js'], 'post-visit-comment-count');
+  loadjs.ready('post-visit-comment-count', function(){
+    
+    
+    LeanCloud.init('CNovJyfiCkilw3Aouqw97vPI-gzGzoHsz', 'Kb596VfwcjVPAivAF6eHxceb');
+    var leanCloud = LeanCloud.getInstance();
+    leanCloud.addVisitRecord('/2018/05/21/hello-world/', user_ip);
+    leanCloud.fetchCommentCount('/2018/05/21/hello-world/');
+    leanCloud.fetchVisitCount('/2018/05/21/hello-world/');
+    leanCloud.getCommentCount('/2018/05/21/hello-world/', function(count){
+        var el = document.querySelector('#article-comment-count');
+        if(el) el.innerHTML = count;
+    });
+    leanCloud.getVisitCount('/2018/05/21/hello-world/', function(count){
+        var el = document.querySelector('#article-visit-count');
+        if(el) el.innerHTML = count;
+    });
+  });
+  
+</script>
+
+
+<!-- <script src="/js/post.js"></script> -->
+
+<script src="/js/headroom.min.js"></script>
+
+<script data-no-instant type='text/javascript'>
+
+initHeadroom();
+
+changeLayoutOnTouchScreen();
+
+// 
+// var post = new Post('CNovJyfiCkilw3Aouqw97vPI-gzGzoHsz', 'Kb596VfwcjVPAivAF6eHxceb');
+// post.getCommentCount(window.location.pathname, function(count){
+//     $('#article-comment-count').text(count);
+// });
+// post.addVisitRecord(window.location.pathname, userip);
+// post.getVisitCount(window.location.pathname, function(count){
+//     $('#article-visit-count').text(count);
+// });
+
+// 
+</script>
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
