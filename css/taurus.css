@@ -1508,17 +1508,17 @@ html {
   border-radius: 4px;
   color: #567;
 }
-.copyright-content {
+.article-copyright .copyright-content {
   width: 95%;
   margin: auto;
   border: 1px solid #f0f0f0;
   padding-left: 17px;
 }
-.copyright-content li {
+.article-copyright .copyright-content li {
   font-size: 1rem;
   letter-spacing: 0.1rem;
 }
-.copyright-content label {
+.article-copyright .copyright-content label {
   font-size: 1rem;
 }
 @font-face {

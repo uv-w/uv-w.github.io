@@ -3,11 +3,11 @@
   <title>平凡之路</title>
   
   <subtitle>Go with wind</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="localhost/"/>
+  <link href="http://blog.uv-w.com/blog/"/>
   <updated>2018-05-21T05:24:25.608Z</updated>
-  <id>localhost/</id>
+  <id>http://blog.uv-w.com/blog/</id>
   
   <author>
     <name>uv-w</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="localhost/2018/05/21/hello-world/"/>
-    <id>localhost/2018/05/21/hello-world/</id>
+    <link href="http://blog.uv-w.com/blog/2018/05/21/hello-world/"/>
+    <id>http://blog.uv-w.com/blog/2018/05/21/hello-world/</id>
     <published>2018-05-21T05:24:25.608Z</published>
     <updated>2018-05-21T05:24:25.608Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>重写个人网站</title>
-    <link href="localhost/2016/11/04/demo/"/>
-    <id>localhost/2016/11/04/demo/</id>
+    <link href="http://blog.uv-w.com/blog/2016/11/04/demo/"/>
+    <id>http://blog.uv-w.com/blog/2016/11/04/demo/</id>
     <published>2016-11-04T02:42:24.000Z</published>
     <updated>2016-11-04T02:42:24.000Z</updated>
     
@@ -53,12 +53,12 @@
     
     </summary>
     
-      <category term="notes" scheme="localhost/categories/notes/"/>
+      <category term="notes" scheme="http://blog.uv-w.com/blog/categories/notes/"/>
     
     
-      <category term="feel" scheme="localhost/tags/feel/"/>
+      <category term="feel" scheme="http://blog.uv-w.com/blog/tags/feel/"/>
     
-      <category term="test" scheme="localhost/tags/test/"/>
+      <category term="test" scheme="http://blog.uv-w.com/blog/tags/test/"/>
     
   </entry>
   
