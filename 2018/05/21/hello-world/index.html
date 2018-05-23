@@ -23,13 +23,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- load loadjs.js -->
-  <script src="/blog/libs/loadjs/dist/loadjs.min.js"></script>
+  <script src="/libs/loadjs/dist/loadjs.min.js"></script>
 
 
-<link rel="stylesheet" href="/blog/libs/animate.css/animate.min.css">
+<link rel="stylesheet" href="/libs/animate.css/animate.min.css">
   <!-- load lightgallery -->
-<link rel="stylesheet" href="/blog/css/lightgallery.css">
-<link rel="stylesheet" href="/blog/libs/noty/lib/noty.css">
+<link rel="stylesheet" href="/css/lightgallery.css">
+<link rel="stylesheet" href="/libs/noty/lib/noty.css">
 <script
 src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -41,9 +41,9 @@ crossorigin="anonymous"></script>
 
 
 
-    <link rel="stylesheet" href="/blog/css/taurus.css">
+    <link rel="stylesheet" href="/css/taurus.css">
     
-        <link rel="stylesheet" href="/blog/css/scheme-taurus/animations.css">
+        <link rel="stylesheet" href="/css/scheme-taurus/animations.css">
     
 
 
@@ -62,8 +62,8 @@ crossorigin="anonymous"></script>
 
   <!-- load js-cookie -->
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script src="/blog/js/social-share.min.js"></script>
-    <script src="/blog/js/theme.js"></script>
+    <script src="/js/social-share.min.js"></script>
+    <script src="/js/theme.js"></script>
 
   <!-- include cookie.js -->
   
@@ -171,7 +171,7 @@ crossorigin="anonymous"></script>
 	<div class="nav-item" id='nav-item-more'>
 		<div class="nav-icon">
 				<a href='#' onclick='onClickMenuIcon(event);' ontouchstart='onClickMenuIcon(event);'>
-				<img src="" alt="">
+				<img src="/images/icons/blue-shadow/menu.svg" alt="">
 				</a>
 		</div>
 		<div class="nav-more-menu">
@@ -313,7 +313,7 @@ crossorigin="anonymous"></script>
 	<div class="nav-item" id='nav-item-more'>
 		<div class="nav-icon">
 				<a href='#' onclick='onClickMenuIcon(event);' ontouchstart='onClickMenuIcon(event);'>
-				<img src="" alt="">
+				<img src="/images/icons/blue-shadow/menu.svg" alt="">
 				</a>
 		</div>
 		<div class="nav-more-menu">
@@ -390,8 +390,8 @@ crossorigin="anonymous"></script>
 
 
 
-    <script src="/blog/js/lightgallery.min.js"></script>
-<script src="/blog/js/lg-zoom.min.js"></script>
+    <script src="/js/lightgallery.min.js"></script>
+<script src="/js/lg-zoom.min.js"></script>
 <script type='text/javascript'>
     $(document).ready(function() {
         $("#lightgallery").lightGallery(); 
@@ -416,7 +416,7 @@ crossorigin="anonymous"></script>
   loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/post.v2.js'], 'post-version');
   loadjs.ready('post-version', function(){
     
-    new Postv2('hashit_e8e61da178a90c7a35a933ad52297a20992d2352c7739edb83cd3c88bafd9b6e').update('hashit_6efe040c108562253b2741585e2c4ce8633fbd686bf8bc66134bd212cf028021', function(){});
+    new Postv2('hashit_e7d2f1136b94a21d95ef2c1bddac8320c1d0381ca7fc56ad67dbb55630321dbd').update('hashit_6efe040c108562253b2741585e2c4ce8633fbd686bf8bc66134bd212cf028021', function(){});
   });
   
 </script>
@@ -432,14 +432,14 @@ crossorigin="anonymous"></script>
     
     LeanCloud.init('CNovJyfiCkilw3Aouqw97vPI-gzGzoHsz', 'Kb596VfwcjVPAivAF6eHxceb');
     var leanCloud = LeanCloud.getInstance();
-    leanCloud.addVisitRecord('/blog/2018/05/21/hello-world/', user_ip);
-    leanCloud.fetchCommentCount('/blog/2018/05/21/hello-world/');
-    leanCloud.fetchVisitCount('/blog/2018/05/21/hello-world/');
-    leanCloud.getCommentCount('/blog/2018/05/21/hello-world/', function(count){
+    leanCloud.addVisitRecord('/2018/05/21/hello-world/', user_ip);
+    leanCloud.fetchCommentCount('/2018/05/21/hello-world/');
+    leanCloud.fetchVisitCount('/2018/05/21/hello-world/');
+    leanCloud.getCommentCount('/2018/05/21/hello-world/', function(count){
         var el = document.querySelector('#article-comment-count');
         if(el) el.innerHTML = count;
     });
-    leanCloud.getVisitCount('/blog/2018/05/21/hello-world/', function(count){
+    leanCloud.getVisitCount('/2018/05/21/hello-world/', function(count){
         var el = document.querySelector('#article-visit-count');
         if(el) el.innerHTML = count;
     });
@@ -448,9 +448,9 @@ crossorigin="anonymous"></script>
 </script>
 
 
-<!-- <script src="/blog/js/post.js"></script> -->
+<!-- <script src="/js/post.js"></script> -->
 
-<script src="/blog/js/headroom.min.js"></script>
+<script src="/js/headroom.min.js"></script>
 
 <script data-no-instant type='text/javascript'>
 
