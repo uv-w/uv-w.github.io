@@ -221,62 +221,6 @@ crossorigin="anonymous"></script>
 	
 	<div class='archive-container'>
 		
-			<h1 class='archive-title'>2018</h1>
-			
-			
-			
-				
-
-	
-		<h2 class='archive-title'></h2>
-	
-	<div class="archive-cards">
-	
-		
-
-
-
-
-<div class='Card-archive' id='hashit_e7d2f1136b94a21d95ef2c1bddac8320c1d0381ca7fc56ad67dbb55630321dbd' data-name='Hello World' data-version=''>
-	<mark class='Card-badge'></mark>
-	<div class="Card-body">
-		<h3 class='Card-title'>
-			
-				<a href="/2018/05/21/hello-world/">
-			
-			Hello World</a>
-		</h3>
-		<div class="Card-meta">
-			<div class='Card-tags'></div>
-			<ul>
-					<li>
-						<a href="/archives/">
-							<i class='fa fa-calendar'></i> 2018-05-21
-						</a>
-					</li>
-					
-					
-					<li>
-						<a href="/2018/05/21/hello-world/#article-comment">
-							<i class='fa fa-comments'></i> <span class='card-comment-count'>0</span>
-						</a>
-					</li>
-					<li>
-						<i class="fa fa-eye"></i> <span class='card-visit-count'>0</span>
-					</li>
-					
-					
-			</ul>
-		</div>
-	</div>
-</div>
-
-	
-	</div>
-
-
-			
-		
 			<h1 class='archive-title'>2016</h1>
 			
 			
@@ -323,13 +267,53 @@ crossorigin="anonymous"></script>
 			<ul>
 					<li>
 						<a href="/archives/">
-							<i class='fa fa-calendar'></i> 2016-11-04
+							<i class='fa fa-calendar'></i> 2016-42-5
 						</a>
 					</li>
 					
 					
 					<li>
 						<a href="/2016/11/04/demo/#article-comment">
+							<i class='fa fa-comments'></i> <span class='card-comment-count'>0</span>
+						</a>
+					</li>
+					<li>
+						<i class="fa fa-eye"></i> <span class='card-visit-count'>0</span>
+					</li>
+					
+					
+			</ul>
+		</div>
+	</div>
+</div>
+
+	
+		
+
+
+
+
+<div class='Card-archive' id='hashit_14fe23694a3c2203c26a6bed7c813dc959d08303e0f7e6ff6c00be843979d50c' data-name='Hello World' data-version=''>
+	<mark class='Card-badge'></mark>
+	<div class="Card-body">
+		<h3 class='Card-title'>
+			
+				<a href="/2016/11/04/hello-world/">
+			
+			Hello World</a>
+		</h3>
+		<div class="Card-meta">
+			<div class='Card-tags'></div>
+			<ul>
+					<li>
+						<a href="/archives/">
+							<i class='fa fa-calendar'></i> 2016-42-5
+						</a>
+					</li>
+					
+					
+					<li>
+						<a href="/2016/11/04/hello-world/#article-comment">
 							<i class='fa fa-comments'></i> <span class='card-comment-count'>0</span>
 						</a>
 					</li>
@@ -530,7 +514,7 @@ crossorigin="anonymous"></script>
           
           
           
-            var postBadge = document.querySelector('#hashit_e7d2f1136b94a21d95ef2c1bddac8320c1d0381ca7fc56ad67dbb55630321dbd mark.Card-badge');
+            var postBadge = document.querySelector('#hashit_dda194e4d0e7df91fd6684397e4ae28f011c6b88e788a05d91523d676b38719a mark.Card-badge');
             $(postBadge).fadeOut();
             
           
@@ -538,7 +522,7 @@ crossorigin="anonymous"></script>
           
           
           
-            var postBadge = document.querySelector('#hashit_dda194e4d0e7df91fd6684397e4ae28f011c6b88e788a05d91523d676b38719a mark.Card-badge');
+            var postBadge = document.querySelector('#hashit_14fe23694a3c2203c26a6bed7c813dc959d08303e0f7e6ff6c00be843979d50c mark.Card-badge');
             $(postBadge).fadeOut();
             
           
@@ -561,20 +545,6 @@ crossorigin="anonymous"></script>
           
           
           // start caching post visit and comment counts
-          leanCloud.fetchCommentCount('/2018/05/21/hello-world/');
-          leanCloud.fetchVisitCount('/2018/05/21/hello-world/');
-          leanCloud.getCommentCount('/2018/05/21/hello-world/', function(count){
-              var el = document.querySelector('#hashit_e7d2f1136b94a21d95ef2c1bddac8320c1d0381ca7fc56ad67dbb55630321dbd .card-comment-count');
-              if(el) el.innerHTML = count;
-          });
-          leanCloud.getVisitCount('/2018/05/21/hello-world/', function(count){
-              var el = document.querySelector('#hashit_e7d2f1136b94a21d95ef2c1bddac8320c1d0381ca7fc56ad67dbb55630321dbd .card-visit-count');
-              if(el) el.innerHTML = count;
-          });
-        
-          
-          
-          // start caching post visit and comment counts
           leanCloud.fetchCommentCount('/2016/11/04/demo/');
           leanCloud.fetchVisitCount('/2016/11/04/demo/');
           leanCloud.getCommentCount('/2016/11/04/demo/', function(count){
@@ -583,6 +553,20 @@ crossorigin="anonymous"></script>
           });
           leanCloud.getVisitCount('/2016/11/04/demo/', function(count){
               var el = document.querySelector('#hashit_dda194e4d0e7df91fd6684397e4ae28f011c6b88e788a05d91523d676b38719a .card-visit-count');
+              if(el) el.innerHTML = count;
+          });
+        
+          
+          
+          // start caching post visit and comment counts
+          leanCloud.fetchCommentCount('/2016/11/04/hello-world/');
+          leanCloud.fetchVisitCount('/2016/11/04/hello-world/');
+          leanCloud.getCommentCount('/2016/11/04/hello-world/', function(count){
+              var el = document.querySelector('#hashit_14fe23694a3c2203c26a6bed7c813dc959d08303e0f7e6ff6c00be843979d50c .card-comment-count');
+              if(el) el.innerHTML = count;
+          });
+          leanCloud.getVisitCount('/2016/11/04/hello-world/', function(count){
+              var el = document.querySelector('#hashit_14fe23694a3c2203c26a6bed7c813dc959d08303e0f7e6ff6c00be843979d50c .card-visit-count');
               if(el) el.innerHTML = count;
           });
         
