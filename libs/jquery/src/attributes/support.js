@@ -1,33 +1,3 @@
-define( [
-	"../var/document",
-	"../var/support"
-], function( document, support ) {
-
-"use strict";
-
-( function() {
-	var input = document.createElement( "input" ),
-		select = document.createElement( "select" ),
-		opt = select.appendChild( document.createElement( "option" ) );
-
-	input.type = "checkbox";
-
-	// Support: Android <=4.3 only
-	// Default value for a checkbox should be "on"
-	support.checkOn = input.value !== "";
-
-	// Support: IE <=11 only
-	// Must access selectedIndex to make default options select
-	support.optSelected = opt.selected;
-
-	// Support: IE <=11 only
-	// An input loses its value after becoming a radio
-	input = document.createElement( "input" );
-	input.value = "t";
-	input.type = "radio";
-	support.radioValue = input.value === "t";
-} )();
-
-return support;
-
-} );
+// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
+define(["../var/document","../var/support"],function(e,t){"use strict";(function(){var n=e.createElement("input"),c=e.createElement("select"),a=c.appendChild(e.createElement("option"));n.type="checkbox";t.checkOn=n.value!=="";t.optSelected=a.selected;n=e.createElement("input");n.value="t";n.type="radio";t.radioValue=n.value==="t"})();return t});
+//rebuild by neat 

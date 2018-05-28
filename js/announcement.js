@@ -1,29 +1,3 @@
-/* 
-
-script about annoucement behavior
-
-*/
-var Announcement = function(text){
-  this.text = text;
-  this.show = function(){
-    var announcement = new Noty({
-      type: 'info',
-      layout: 'bottomLeft',
-      text: this.text,
-      timeout: 10000,
-      theme: 'mint',
-      id: 'announcement'
-    });
-    // check if user has seen this announcement
-    var textHash = new Hashes.SHA256().hex(this.text);
-    var cookieTextHash = Cookies.get('ANNOUNCEMENT');
-    if(textHash === cookieTextHash){
-      // dismiss, no need to show
-      return;
-    }else{
-      // show announcement and save the announcement to cookie
-      announcement.show();
-      Cookies.set('ANNOUNCEMENT', textHash, {path: '', domain: window.location.hostname, expires: 365 * 3});
-    }
-  };
-};
+// build time:Mon May 28 2018 17:16:16 GMT+0800 (CST)
+var Announcement=function(t){this.text=t;this.show=function(){var t=new Noty({type:"info",layout:"bottomLeft",text:this.text,timeout:1e4,theme:"mint",id:"announcement"});var e=(new Hashes.SHA256).hex(this.text);var n=Cookies.get("ANNOUNCEMENT");if(e===n){return}else{t.show();Cookies.set("ANNOUNCEMENT",e,{path:"",domain:window.location.hostname,expires:365*3})}}};
+//rebuild by neat 

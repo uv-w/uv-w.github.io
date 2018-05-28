@@ -1,15 +1,3 @@
-define( [
-	"../core",
-	"../selector"
-], function( jQuery ) {
-
-"use strict";
-
-jQuery.expr.pseudos.hidden = function( elem ) {
-	return !jQuery.expr.pseudos.visible( elem );
-};
-jQuery.expr.pseudos.visible = function( elem ) {
-	return !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length );
-};
-
-} );
+// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
+define(["../core","../selector"],function(e){"use strict";e.expr.pseudos.hidden=function(t){return!e.expr.pseudos.visible(t)};e.expr.pseudos.visible=function(e){return!!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}});
+//rebuild by neat 

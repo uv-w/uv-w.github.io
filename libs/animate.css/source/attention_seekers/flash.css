@@ -1,16 +1,3 @@
-@keyframes flash {
-  from,
-  50%,
-  to {
-    opacity: 1;
-  }
-
-  25%,
-  75% {
-    opacity: 0;
-  }
-}
-
-.flash {
-  animation-name: flash;
-}
+/* build time:Mon May 28 2018 17:16:22 GMT+0800 (CST)*/
+@keyframes flash{50%,from,to{opacity:1}25%,75%{opacity:0}}.flash{animation-name:flash}
+/* rebuild by neat */

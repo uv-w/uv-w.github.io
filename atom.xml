@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>平凡之路</title>
   
-  <subtitle>Go with wind</subtitle>
+  <subtitle>Blowing in the Wind</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.uv-w.com/"/>
-  <updated>2016-11-05T02:42:24.000Z</updated>
+  <updated>2016-11-04T02:42:24.000Z</updated>
   <id>http://blog.uv-w.com/</id>
   
   <author>
@@ -17,18 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="http://blog.uv-w.com/2016/11/04/hello-world/"/>
+    <id>http://blog.uv-w.com/2016/11/04/hello-world/</id>
+    <published>2016-11-04T02:42:24.000Z</published>
+    <updated>2016-11-04T02:42:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Mon May 28 2018 17:16:13 GMT+0800 (CST) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start">Quick Start</h2><h3 id="create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Mon May 28 2018 17:16:13 GMT+0800 (CST) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>重写个人网站</title>
     <link href="http://blog.uv-w.com/2016/11/04/demo/"/>
     <id>http://blog.uv-w.com/2016/11/04/demo/</id>
     <published>2016-11-04T02:42:24.000Z</published>
     <updated>2016-11-05T02:42:24.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这个博客虽然还有不少兼容问题，但是整体也还算完整。但是总感觉不满意，感觉怪怪的，也许是不懂设计，UI不知道如何才能达到自己的审美。</p><p>另外板块受限于hexo的限制，感觉不好发挥自己的想法，所以，我想，自己写一个博客吧。</p><a id="more"></a><p>另外我经常看<a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="noopener">阮一峰</a>的博客，里面有一篇文章叫做<a href="http://www.ruanyifeng.com/blog/2016/01/website-obesity-crisis.html" target="_blank" rel="noopener">《网站的肥胖症危机》</a>，描述了现代的网站，文字内容虽然不多，但是网站本身体积却很大，添加了很多花花哨哨的功能，以及各种第三方的功能和库文件，不符合简洁简单的观点，增加了复杂性。</p><p>而我个人也一直希望自己能够简单，周围事物能够简单，这个时代太多事物让人分神，让人疲惫。</p><p>我这次准备做一套个人的网站，首先界面要简洁，突出主题，网站体积要尽可能的小，加载速度要快，做成最终我要的样子。</p><p>网站应该包括博客，工具导航类、在线学习系统等。</p><p>博客做一些生活和个人记录。利用markdown书写，能够简单发布和备份，支持留言点赞分享置顶等常用功能，以及我还存在的其他想法。</p><p>工具导航类主要是包涵一个可自由编辑的，包涵自己常用的一些开发工具，支持多任务，支持数据备份和后台存储等。</p><p>在线学习系统主要面向前端这块，可以在线调试各种效果，支持导出和分享等。交互效果要简单实用。</p><p>目前主要开发环境，包括express\ejs\bootstrap\webpack\vue.js等最新版本。后台存储暂时使用<a href="https://leancloud.cn/" target="_blank" rel="noopener">leancloud</a>,统计留言等功能可能会使用不蒜子或多说，很可能是自己实现。cdn还是会用<a href="http://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>，版本托管使用<a href="https://coding.net" target="_blank" rel="noopener">码市</a>。</p><p>不折腾不罢休！争取年前搞定！</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Mon May 28 2018 17:16:13 GMT+0800 (CST) --><p>这个博客虽然还有不少兼容问题，但是整体也还算完整。但是总感觉不满意，感觉怪怪的，也许是不懂设计，UI不知道如何才能达到自己的审美。</p><p>另外板块受限于hexo的限制，感觉不好发挥自己的想法，所以，我想，自己写一个博客吧。</p><a id="more"></a><p>另外我经常看<a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="noopener">阮一峰</a>的博客，里面有一篇文章叫做<a href="http://www.ruanyifeng.com/blog/2016/01/website-obesity-crisis.html" target="_blank" rel="noopener">《网站的肥胖症危机》</a>，描述了现代的网站， 文字内容虽然不多，但是网站本身体积却很大，添加了很多花花哨哨的功能，以及各种第三方的功能和库文件，不符合简洁简单的观点，增加了复杂性。</p><p>而我个人也一直希望自己能够简单，周围事物能够简单，这个时代太多事物让人分神，让人疲惫。</p><p>我这次准备做一套个人的网站，首先界面要简洁，突出主题，网站体积要尽可能的小，加载速度要快，做成最终我要的样子。</p><p>网站应该包括博客，工具导航类、在线学习系统等。</p><p>博客做一些生活和个人记录。利用markdown书写，能够简单发布和备份，支持留言点赞分享置顶等常用功能，以及我还存在的其他想法。</p><p>工具导航类主要是包涵一个可自由编辑的，包涵自己常用的一些开发工具，支持多任务，支持数据备份和后台存储等。</p><p>在线学习系统主要面向前端这块，可以在线调试各种效果，支持导出和分享等。交互效果要简单实用。</p><p>目前主要开发环境，包括express\ejs\bootstrap\webpack\vue.js等最新版本。后台存储暂时使用<a href="https://leancloud.cn/" target="_blank" rel="noopener">leancloud</a>,统计留言等功能可能会使用不蒜子或多说，很可能是自己实现。cdn还是会用<a href="http://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>，版本托管使用<a href="https://coding.net" target="_blank" rel="noopener">码市</a>。</p><p>不折腾不罢休！争取年前搞定！</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这个博客虽然还有不少兼容问题，但是整体也还算完整。但是总感觉不满意，感觉怪怪的，也许是不懂设计，UI不知道如何才能达到自己的审美。&lt;/p&gt;
-&lt;p&gt;另外板块受限于hexo的限制，感觉不好发挥自己的想法，所以，我想，自己写一个博客吧。&lt;/p&gt;
+      &lt;!-- build time:Mon May 28 2018 17:16:13 GMT+0800 (CST) --&gt;&lt;p&gt;这个博客虽然还有不少兼容问题，但是整体也还算完整。但是总感觉不满意，感觉怪怪的，也许是不懂设计，UI不知道如何才能达到自己的审美。&lt;/p&gt;&lt;p&gt;另外板块受限于hexo的限制，感觉不好发挥自己的想法，所以，我想，自己写一个博客吧。&lt;/p&gt;
     
     </summary>
     
@@ -39,26 +59,11 @@
     
       <category term="test" scheme="http://blog.uv-w.com/tags/test/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://blog.uv-w.com/2016/11/04/hello-world/"/>
-    <id>http://blog.uv-w.com/2016/11/04/hello-world/</id>
-    <published>2016-11-04T02:42:24.000Z</published>
-    <updated>2016-11-04T02:42:24.000Z</updated>
+      <category term="llllllll" scheme="http://blog.uv-w.com/tags/llllllll/"/>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start">Quick Start</h2><h3 id="create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      <category term="我的想法" scheme="http://blog.uv-w.com/tags/%E6%88%91%E7%9A%84%E6%83%B3%E6%B3%95/"/>
     
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
+      <category term="nnnnnnnnn" scheme="http://blog.uv-w.com/tags/nnnnnnnnn/"/>
     
   </entry>
   

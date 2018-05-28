@@ -1,23 +1,3 @@
-define( [], function() {
-
-"use strict";
-
-// Matches dashed string for camelizing
-var rmsPrefix = /^-ms-/,
-	rdashAlpha = /-([a-z])/g;
-
-// Used by camelCase as callback to replace()
-function fcamelCase( all, letter ) {
-	return letter.toUpperCase();
-}
-
-// Convert dashed to camelCase; used by the css and data modules
-// Support: IE <=9 - 11, Edge 12 - 15
-// Microsoft forgot to hump their vendor prefix (#9572)
-function camelCase( string ) {
-	return string.replace( rmsPrefix, "ms-" ).replace( rdashAlpha, fcamelCase );
-}
-
-return camelCase;
-
-} );
+// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
+define([],function(){"use strict";var e=/^-ms-/,r=/-([a-z])/g;function n(e,r){return r.toUpperCase()}function t(t){return t.replace(e,"ms-").replace(r,n)}return t});
+//rebuild by neat 

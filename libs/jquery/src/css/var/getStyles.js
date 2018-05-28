@@ -1,17 +1,3 @@
-define( function() {
-	"use strict";
-
-	return function( elem ) {
-
-		// Support: IE <=11 only, Firefox <=30 (#15098, #14150)
-		// IE throws on elements created in popups
-		// FF meanwhile throws on frame elements through "defaultView.getComputedStyle"
-		var view = elem.ownerDocument.defaultView;
-
-		if ( !view || !view.opener ) {
-			view = window;
-		}
-
-		return view.getComputedStyle( elem );
-	};
-} );
+// build time:Mon May 28 2018 17:16:21 GMT+0800 (CST)
+define(function(){"use strict";return function(e){var n=e.ownerDocument.defaultView;if(!n||!n.opener){n=window}return n.getComputedStyle(e)}});
+//rebuild by neat 

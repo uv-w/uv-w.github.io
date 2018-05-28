@@ -1,14 +1,3 @@
-@keyframes slideOutDown {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    transform: translate3d(0, 100%, 0);
-  }
-}
-
-.slideOutDown {
-  animation-name: slideOutDown;
-}
+/* build time:Mon May 28 2018 17:16:22 GMT+0800 (CST)*/
+@keyframes slideOutDown{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(0,100%,0)}}.slideOutDown{animation-name:slideOutDown}
+/* rebuild by neat */
