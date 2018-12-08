@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
-define(["../core","../data/var/dataPriv","./support","../event","./trigger"],function(e,t,n){"use strict";if(!n.focusin){e.each({focus:"focusin",blur:"focusout"},function(n,s){var c=function(t){e.event.simulate(s,t.target,e.event.fix(t))};e.event.special[s]={setup:function(){var e=this.ownerDocument||this,i=t.access(e,s);if(!i){e.addEventListener(n,c,true)}t.access(e,s,(i||0)+1)},teardown:function(){var e=this.ownerDocument||this,i=t.access(e,s)-1;if(!i){e.removeEventListener(n,c,true);t.remove(e,s)}else{t.access(e,s,i)}}}})}return e});
-//rebuild by neat 

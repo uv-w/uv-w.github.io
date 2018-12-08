@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
-define(["../core","../var/document","../core/readyException","../deferred"],function(e,t){"use strict";var n=e.Deferred();e.fn.ready=function(t){n.then(t).catch(function(t){e.readyException(t)});return this};e.extend({isReady:false,readyWait:1,ready:function(r){if(r===true?--e.readyWait:e.isReady){return}e.isReady=true;if(r!==true&&--e.readyWait>0){return}n.resolveWith(t,[e])}});e.ready.then=n.then;function r(){t.removeEventListener("DOMContentLoaded",r);window.removeEventListener("load",r);e.ready()}if(t.readyState==="complete"||t.readyState!=="loading"&&!t.documentElement.doScroll){window.setTimeout(e.ready)}else{t.addEventListener("DOMContentLoaded",r);window.addEventListener("load",r)}});
-//rebuild by neat 

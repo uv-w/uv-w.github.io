@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:17 GMT+0800 (CST)
-define(["./core","./core/access","./var/isWindow","./css"],function(e,n,t){"use strict";e.each({Height:"height",Width:"width"},function(r,i){e.each({padding:"inner"+r,content:i,"":"outer"+r},function(o,c){e.fn[c]=function(u,d){var f=arguments.length&&(o||typeof u!=="boolean"),s=o||(u===true||d===true?"margin":"border");return n(this,function(n,i,o){var u;if(t(n)){return c.indexOf("outer")===0?n["inner"+r]:n.document.documentElement["client"+r]}if(n.nodeType===9){u=n.documentElement;return Math.max(n.body["scroll"+r],u["scroll"+r],n.body["offset"+r],u["offset"+r],u["client"+r])}return o===undefined?e.css(n,i,s):e.style(n,i,o,s)},i,f?u:undefined,f)}})});return e});
-//rebuild by neat 

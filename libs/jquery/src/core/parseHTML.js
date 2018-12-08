@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
-define(["../core","../var/document","./var/rsingleTag","../manipulation/buildFragment","./support"],function(e,r,t,n,a){"use strict";e.parseHTML=function(i,o,c){if(typeof i!=="string"){return[]}if(typeof o==="boolean"){c=o;o=false}var f,l,u;if(!o){if(a.createHTMLDocument){o=r.implementation.createHTMLDocument("");f=o.createElement("base");f.href=r.location.href;o.head.appendChild(f)}else{o=r}}l=t.exec(i);u=!c&&[];if(l){return[o.createElement(l[1])]}l=n([i],o,u);if(u&&u.length){e(u).remove()}return e.merge([],l.childNodes)};return e.parseHTML});
-//rebuild by neat 

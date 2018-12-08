@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
-define(["../var/document","../var/support"],function(e,t){"use strict";(function(){var n=e.createDocumentFragment(),r=n.appendChild(e.createElement("div")),c=e.createElement("input");c.setAttribute("type","radio");c.setAttribute("checked","checked");c.setAttribute("name","t");r.appendChild(c);t.checkClone=r.cloneNode(true).cloneNode(true).lastChild.checked;r.innerHTML="<textarea>x</textarea>";t.noCloneChecked=!!r.cloneNode(true).lastChild.defaultValue})();return t});
-//rebuild by neat 

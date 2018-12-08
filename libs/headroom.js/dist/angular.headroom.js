@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:17 GMT+0800 (CST)
-(function(o,r){if(!o){return}function e(o){return{scope:{tolerance:"=",offset:"=",classes:"=",scroller:"@"},link:function(r,e){var n={};var c=o.options;for(var i in c){n[i]=r[i]||c[i]}if(r.scroller){n.scroller=document.querySelector(r.scroller)}var t=new o(e[0],n).init();r.$on("$destroy",function(){t.destroy()})}}}e.$inject=["HeadroomService"];function n(){return r}o.module("headroom",[]).directive("headroom",e).factory("HeadroomService",n)})(window.angular,window.Headroom);
-//rebuild by neat 

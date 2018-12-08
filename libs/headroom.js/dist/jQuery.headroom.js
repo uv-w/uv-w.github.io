@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:17 GMT+0800 (CST)
-(function(o){if(!o){return}o.fn.headroom=function(t){return this.each(function(){var e=o(this),a=e.data("headroom"),r=typeof t==="object"&&t;r=o.extend(true,{},Headroom.options,r);if(!a){a=new Headroom(this,r);a.init();e.data("headroom",a)}if(typeof t==="string"){a[t]();if(t==="destroy"){e.removeData("headroom")}}})};o("[data-headroom]").each(function(){var t=o(this);t.headroom(t.data())})})(window.Zepto||window.jQuery);
-//rebuild by neat 

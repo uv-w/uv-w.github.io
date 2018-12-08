@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
-define(["../core","../var/rcssNum"],function(r,e){"use strict";function n(n,s,t,u){var c,i,f=20,o=u?function(){return u.cur()}:function(){return r.css(n,s,"")},a=o(),l=t&&t[3]||(r.cssNumber[s]?"":"px"),m=(r.cssNumber[s]||l!=="px"&&+a)&&e.exec(r.css(n,s));if(m&&m[3]!==l){a=a/2;l=l||m[3];m=+a||1;while(f--){r.style(n,s,m+l);if((1-i)*(1-(i=o()/a||.5))<=0){f=0}m=m/i}m=m*2;r.style(n,s,m+l);t=t||[]}if(t){m=+m||+a||0;c=t[1]?m+(t[1]+1)*t[2]:+t[2];if(u){u.unit=l;u.start=m;u.end=c}}return c}return n});
-//rebuild by neat 

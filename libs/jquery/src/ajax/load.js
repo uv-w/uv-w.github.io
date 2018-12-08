@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:19 GMT+0800 (CST)
-define(["../core","../core/stripAndCollapse","../var/isFunction","../core/parseHTML","../ajax","../traversing","../manipulation","../selector"],function(e,n,i){"use strict";e.fn.load=function(t,a,s){var o,r,c,f=this,l=t.indexOf(" ");if(l>-1){o=n(t.slice(l));t=t.slice(0,l)}if(i(a)){s=a;a=undefined}else if(a&&typeof a==="object"){r="POST"}if(f.length>0){e.ajax({url:t,type:r||"GET",dataType:"html",data:a}).done(function(n){c=arguments;f.html(o?e("<div>").append(e.parseHTML(n)).find(o):n)}).always(s&&function(e,n){f.each(function(){s.apply(this,c||[e.responseText,n,e])})})}return this}});
-//rebuild by neat 

@@ -1,3 +1,0 @@
-// build time:Mon May 28 2018 17:16:16 GMT+0800 (CST)
-var Announcement=function(t){this.text=t;this.show=function(){var t=new Noty({type:"info",layout:"bottomLeft",text:this.text,timeout:1e4,theme:"mint",id:"announcement"});var e=(new Hashes.SHA256).hex(this.text);var n=Cookies.get("ANNOUNCEMENT");if(e===n){return}else{t.show();Cookies.set("ANNOUNCEMENT",e,{path:"",domain:window.location.hostname,expires:365*3})}}};
-//rebuild by neat 
